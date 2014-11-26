@@ -1,0 +1,29 @@
+{
+  "name": "company",
+  "version": "0.0.1",
+  "description": "create and run your own company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coding-amigos/company.git"
+  },
+  "keywords": [
+    "company",
+    "gmbh",
+    "limited",
+    "ltd",
+    "enterprise",
+    "contract",
+    "business",
+    "revolution"
+  ],
+  "author": "serapath <dev@serapath.de> (http://www.github.com/serapath)",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/coding-amigos/company/issues"
+  },
+  "homepage": "https://github.com/coding-amigos/company"
+}
