@@ -41,11 +41,11 @@
 8. Is a notary required?
 9. Does the LTD need a UK bank account?
 10. Do owners need to have bank accounts in UK?
-11. Is a registered office required?
-12. Can it be a virtual or rented adress?
+11. Is a registered office required? --> You atleast need a postbox ( https://www.gov.uk/limited-company-formation/company-address )
+12. Can it be a virtual or rented adress? --> Yes( https://www.gov.uk/limited-company-formation/company-address )
 13. How expensive would be the cheapest offer?
-14. Does the company need an office located in the country of registration (UK)?
-15. Can a company office be a home adress? Home office
+14. Does the company need an office located in the country of registration (UK)? --> No ( https://www.gov.uk/limited-company-formation/company-address )
+15. Can a company office be a home adress? Home office --> Yes ( https://www.gov.uk/limited-company-formation/company-address )
 
 
 ### Export of Products/Services
@@ -90,9 +90,9 @@ _Majority of customers of a LTD owned by a holding __are__ from UK_
 ###### VAT
 1. Is VAT registration required for a LTD with less than 81000 £ revenue?
 2. Will that change in the near future?
-3. Does LTD have to charge VAT to customers outside of UK?
+3. Does LTD have to charge VAT to customers outside of UK? --> for private persons yes, for companies not with VAT number. New tax rule next year: you have to charge the VAT of the country (so 19% DE, 21% NL etc..) if you sell things to private persons without VAT number.
 4. Does LTD have to charge VAT to customers outside of EU?
-5. Does LTD have to pay VAT for goods purchased outside of UK?
+5. Does LTD have to pay VAT for goods purchased outside of UK? --> not with a VAT number of the supplier
 6. Does LTD have to pay VAT for goods purchased outside of EU?
 7. How often to report VAT and to whom?
 8. Which forms to use for VAT reporting and is it possible to do that online?
@@ -180,3 +180,5 @@ _Majority of customers of a LTD owned by a holding __are__ from UK_
     * Can that costs be lowered, if founder does the necessary work required by law instead?
 
 
+### Sources/potential information
+https://www.gov.uk/limited-company-formation/overview
