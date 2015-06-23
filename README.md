@@ -47,7 +47,7 @@ company := (arg: Any) => void
 
  - serapath (Alexander Praetorius)
 
-## MIT Licenced
+## Status
 
   [build-png]: https://secure.travis-ci.org/serapath/company.png
   [build]: https://travis-ci.org/serapath/company

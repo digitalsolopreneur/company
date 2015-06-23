@@ -1,6 +1,6 @@
 {
   "name": "company",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "setup and run your own company",
   "keywords": [
     "company",
@@ -34,10 +34,6 @@
     "coveralls": "^2.10.0",
     "opn": "^0.1.2"
   },
-  "licenses": [{
-    "type": "CC0",
-    "url": "http://github.com/serapath/company/raw/master/LICENSE"
-  }],
   "scripts": {
     "test": "npm run jshint -s && node test/index.js | tap-spec",
     "unit-test": "node test/index.js | tap-spec",
