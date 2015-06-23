@@ -12,6 +12,7 @@ company
 <!-- [![browser support][test-png]][test] -->
 
 setup and run your own company
+For more details see [FAQ](./FAQ.md)
 
 ## Example
 
@@ -37,11 +38,7 @@ company := (arg: Any) => void
 
 ## Installation
 
-`npm install company`
-
-## Tests
-
-`npm test`
+`npm install -g company`
 
 ## Contributors
 
