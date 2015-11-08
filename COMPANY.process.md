@@ -47,17 +47,17 @@
 * [`CH.dn`][CH.dn]
 * [`CH.da`][CH.da]
 * [`CH.ds&sc`][CH.ds&sc]
-* [FN](FN)
-* [FN.fn](FN.fn)
-* [FN.sn](FN.sn)
-* [FN.pw](FN.pw)
-* [FN.em](FN.em)
+* [`FN`][FN]
+* [`FN.fn`][FN.fn]
+* [`FN.sn`][FN.sn]
+* [`FN.pw`][FN.pw]
+* [`FN.em`][FN.em]
 
-[FN]: # ("Founder")
-[FN.fn]: # ("Founder's Forename: e.g. John")
-[FN.sn]: # ("Founder's Surename: e.g. Doe")
-[FN.pw]: # ("Founder's Password for Companies House: e.g. abc123")
-[FN.em]: # ("Founder's Email for Companies House: e.g. johndoe@example.com")
+[FN]: # (Founder)
+[FN.fn]: # (Founder's Forename: e.g. John)
+[FN.sn]: # (Founder's Surename: e.g. Doe)
+[FN.pw]: # (Founder's Password for Companies House: e.g. abc123)
+[FN.em]: # (Founder's Email for Companies House: e.g. johndoe@example.com)
 
 [CH]: # (http:/www.gov.uk/register-a-company-online "Register Ltd. @ Companies House")
 [CH.cn]: # (company’s name)
