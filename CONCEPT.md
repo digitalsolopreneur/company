@@ -2,6 +2,9 @@
 
 **WORK IN PROGRESS - feel free to open and discuss issues**
 
+## Wishes
+1. All the rules combined should be as short as possible - would be wonderful if it fits in less than 1x DIN A4
+
 ## @TODO
 1. Refince Concept
 2. Use "Occam's razor" method to refactor the rules below
