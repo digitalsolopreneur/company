@@ -435,5 +435,25 @@ Choose [**DATA**]:
   ```
 
 ### OUTPUT: [`DCoI`][DCoI]
+// WAIT for:
+> You’ll first need your company’s 10-digit Unique Taxpayer Reference (UTR). This is posted to your company address by HM Revenue and Customs (HMRC), usually within a few days of the company being registered with Companies House (incorporated).
+> If you don't receive it, call the help Line
+ https://www.gov.uk/government/organisations/hm-revenue-customs/contact/corporation-tax-enquiries
+
+ ---
+
+https://www.gov.uk/limited-company-formation/set-up-your-company-for-corporation-tax
+
 * @TODO within 3 moths after registration
-=> https://www.gov.uk/limited-company-formation/set-up-your-company-for-corporation-tax
+
+`REQUIRES`
+* your company’s registration number
+* the date you started to do business
+* the date your annual accounts are made up to
+
+`OUTPUT`
+* Finishing the step enables you to do the `Companies Annual Tax Return`
+=> https://www.gov.uk/company-tax-returns
+
+QUESTION: Is there an API?
+https://www.gov.uk/government/publications/corporation-tax-commercial-software-suppliers
