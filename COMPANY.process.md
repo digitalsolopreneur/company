@@ -1,203 +1,289 @@
-# COMPANY SETUP PROCESS
-
-### GLOSSARY
-**External**
-* [`_BAwCC`][_BAwCC]
-* [`_CRA`][_CRA]
-* [`_1mPB`][1mPB]
-* [`_1mBS`][1mBS]
-
-[1mBS]: # (1 month record of PHONE BILL to verify identity)
-[1mPB]: # (1 month record of BANK STATEMENT to verify identity)
-[_CRA]: # (Current Residential Adress: "e.g. 12345 CityName - StreetName. XXX")
-[_BAwCC]: # (Bank Account with Credit Card: "e.g. DKB & Paypal")
-
-**Internal**
-* [`CGMA`][CGMA]
-* [`DB`][DB]
-* [`GMPL`][GMPL]
-* [`GMPL.fn`][GMPL.fn]
-* [`GMPL.ln`][GMPL.ln]
-* [`GMPL.pw`][GMPL.pw]
-* [`GMPL.dob`][GMPL.dob]
-* [`GMPL.s`][GMPL.s]
-* [`GMPL.l`][GMPL.l]
-* [`GPL`][GPL]
-* [`CD`][CD]
-* [`CDPL`][CDPL]
-* [`CMA`][CMA]
-* [`MPL`][MPL]
-* [`CDPL.u`][CDPL.u]
-* [`CDPL.p`][CDPL.p]
-* [`ML.u`][ML.u]
-* [`ML.p`][ML.p]
-* [`ML`][ML]
-* [`GHL.u`][GHL.u]
-* [`GHL.p`][GHL.p]
-* [`GHL.w`][GHL.w]
-* [`GHL`][GHL]
-* [`RA.u`][RA.u]
-* [`RA.p`][RA.p]
-* [`RA`][RA]
-* [`RAPL`][RAPL]
-* [`DCoI`][DCoI]
-* [`CH`][CH]
-* [`CH.cn`][CH.cn]
-* [`CH.ra`][CH.ra]
-* [`CH.dn`][CH.dn]
-* [`CH.da`][CH.da]
-* [`CH.ds&sc`][CH.ds&sc]
-* [`FN`][FN]
-* [`FN.fn`][FN.fn]
-* [`FN.sn`][FN.sn]
-* [`FN.pw`][FN.pw]
-* [`FN.em`][FN.em]
-
-[FN]: # (Founder)
-[FN.fn]: # (Founder's Forename: e.g. John)
-[FN.sn]: # (Founder's Surename: e.g. Doe)
-[FN.pw]: # (Founder's Password for Companies House: e.g. abc123)
-[FN.em]: # (Founder's Email for Companies House: e.g. johndoe@example.com)
-
-[CH]: # (http:/www.gov.uk/register-a-company-online "Register Ltd. @ Companies House")
-[CH.cn]: # (company’s name)
-[CH.ra]: # (registered address)
-[CH.dn]: # (director names)
-[CH.da]: # (director addresses)
-[CH.ds&sc]: # (details of shareholders and share capital)
-
-[DCoI]: # (digital certificate of incorporation "+ stuff")
-[RA.u]: # (Username: "")
-[RA.p]: # (Password: "")
-[RA]: # (UK Company Address: "...")
-[RAPL]: http://scanmypost.co.uk (Scan My Post - Virtual Address Provider)
-[GHL.w]: # (Repository & Website: "e.g. seraseed-holding.github.io")
-[GHL.u]: # (Username: "...")
-[GHL.p]: # (Password: "...")
-[GHL]: https://github.com/... (Github Company Link)
-[ML.u]: # (Username: "...")
-[ML.p]: # (Password: "...")
-[ML]: https://www.mitro.co/ (Mitro Password Manager)
-[CDPL.u]: # (Username for Domain Registrar: "...")
-[CDPL.p]: # (Password for Domain Registrar: "...")
-[CMA]: # (Company Mail Address: "e.g. mycompany@mycompany.com")
-[MPL]: # (Mail Provider Link (URL): "e.g. mail.zoho.com")
-[CD]: # (Company Domain Name: "e.g. mycompany.com")
-[CDPL]: # (Company Domain Provider: "e.g. namecheap.com")
-[GMPL.fn]: # (First Name: "e.g. company")
-[GMPL.ln]: # (Last Name: "e.g. Ltd.")
-[GMPL.pw]: # (Password: "e.g. asdfasdf")
-[GMPL.dob]: # (Date of Birth: "e.g. 1/1/1990")
-[GMPL.s]: # (Sex: "e.g. other")
-[GMPL.l]: # (Location: "e.g. UK")
-[CGMA]: mailto:company.name@gmail.com (Company Google Mail Address: "e.g. company.name@gmail.com")
-[GPL]: http://mail.google.com (Google Plus Profile Link (URL): "e.g. http://mail.google.com")
-[GMPL]: http://www.google.de ("Google Mail Provider Link (URL)")
-[DB]: http://www.google.de ("Dashboard for Company as Chrome Profile with Links")
-
+# Company Formation Process
+__*Make yourself a private copy of the [**DATA**](DATA.md) document and fill it out with your data during the following process. If you don't fullfill the listed requirements, you will not be able to follow through. Please make sure you already have or get yourself everything listed as requirements before you start the next step.*__
+```js
+var DATA = require('DATA.md')
+```
 
 ---
 
+## `0. Setup Identity Management`
 
-## 0. Setup Google Chrome Profile
-*COSTS: 0 GBP p/y*
-*RESPONSE TIME: instant*
-### INPUT: none
-### PROCESS:
-Choose [**DATA**]:
+### Requirements
+* **Price:** `0 GBP p/y`  
+* **Time:** `~1 hour`
+* **Other Assets:** [**DATA**.personal](DATA.md#personal) `(=Example)`
+  1. own a **european `residential address`** to **receive letters**
+  * own a **european `mobile phone number`** + **last month phone bill** on one's name & address
+  * own a **european `bank account`** + **last month bank statement** on one's name & address
 
-| First Name | Last Name | Password  | Date of Birth | Sex | Location | Email |
-| ---------- |:---------:|:---------:|:-------------:|:---:|:--------:|:-----:|
-|[`GMPL.fn`][GMPL.fn]|[`GMPL.ln`][GMPL.ln]|[`GMPL.pw`][GMPL.pw]|[`GMPL.dob`][GMPL.dob]|[`GMPL.s`][GMPL.s]|[`GMPL.l`][GMPL.l]| `company.name@gmail.com` (=[`CGMA`][CGMA]) |
-01. Download & Install Google Chrome Browser
-02. Signup for GoogleMail with [**DATA**]
-03. Configure Google Chrome Browser Profile & Sign In
-04. Add Bookmarkbar & Bookmark Links to all used Services
-  * Add [`GMPL`][GMPL] Link to [`DB`][DB]
-05. @TODO ***Create Company Logo & Signup for Google Plus to add Logo***
-  * *add as chrome profile avatar*
-  * *Add [`GPL`][GPL] to [`DB`][DB]*
-  * *Add sipgate number to google auth*
+### Process
+1. Download, Install & Start [`Google Chrome Browser`](https://www.google.com/chrome/browser/desktop/)
+* Choose available [`Company Name`](http://wck2.companieshouse.gov.uk//wcframe?name=accessCompanyInfo) & [`Company Domain`](http://whois.domaintools.com/)
+  * Example: [**DATA**.holding.FIRM](DATA.md#holding)
+  * Example: [**DATA**.holding.DOMAIN](DATA.md#holding)
+```js
+// CHECK HERE:
+// => http://wck2.companieshouse.gov.uk//wcframe?name=accessCompanyInfo
+DATA['holding'].FIRM   = 'FOOBAR LTD.'
+// CHECK HERE:
+// => http://whois.domaintools.com/
+DATA['holding'].DOMAIN = 'foobar.com'
+// If both are free, set
+DATA['holding'].NAME = 'foobar'
+```
+* Create yourself a [`Company Logo`](https://www.graphicsprings.com/)
+  * Example: [**DATA**.holding.LOGO](DATA.md#holding)
+  ```js
+  // EXAMPLE SERVICE:
+  // => http://flamingtext.com/
+  // => https://www.graphicsprings.com/
+  DATA['holding'].LOGO = [
+    '<path/or/url/to/logo/filename.svg>',
+    '<path/or/url/to/logo/filename.png>'
+  ]
+  /*
+    Once the logo is created, <right click> -> [inspect element]
+    1. select the enclosing <svg> tag that is your logo from the elemets tab
+    2. <right click> it -> [copy] -> [outer HTML]
+    3. create a local text file <logo.svg> and paste clipboard content into it
+    4. save the file and open it to see the result
+    5. search & use an online service "svg2png" to make a pixel copy of the logo
+  */
+  ```
+* Google Chrome Browser -> Menu -> Settings -> Add person...
+  * **Set Name:** `DATA['holding'].NAME`
+  * **Create an Account**
+    * Example: [**DATA**.accounts.google](DATA.md#google)
+```js
+  DATA['accounts'].google.URL         = 'http://mail.google.de'
+  DATA['accounts'].google.LOGIN_URL = 'https://accounts.google.com/ServiceLogin'
+  DATA['accounts'].google.firstName   = DATA['holding'].NAME
+  DATA['accounts'].google.lastName    = 'LTD'
+  DATA['accounts'].google.username    = DATA['holding'].NAME
+  DATA['accounts'].google.password    = '*******'
+  DATA['accounts'].google.birthday    = '<TODAY minus 25 YEARS>'
+  DATA['accounts'].google.gender      = 'other',
+  DATA['accounts'].google.phone       = DATA['personal'].mobilePhone.number,
+  DATA['accounts'].google.currentMail = '', // doesnt exist
+  DATA['accounts'].google.location    = 'United Kingdom'  
+```
+  * TopRight Avatar Picture -> Avatar change -> upload from computer
+```js
+  DATA['accounts'].google.icon = DATA['holding'].LOGO[1] // the "png" version
+```
+  * TopRight Dialpad Icon -> Google Drive -> New -> File Upload
+    * Example: [**DATA**.accounts.google.drive](DATA.md#google)
+```js
+  DATA['accounts'].google.drive.URL     = 'http://drive.google.com',
+  DATA['accounts'].google.drive.svglogo = DATA['holding'].LOGO[0],
+  DATA['accounts'].google.drive.pnglogo = DATA['holding'].LOGO[1]
+```
+* TopRight Dialpad Icon -> Google Plus -> Upgrade -> Continue...Anyway -> Finish
+  * Example: [**DATA**.accounts.google.plus](DATA.md#google)
+```js
+  DATA['accounts'].plus.URL       = 'http://plus.google.com',
+  DATA['accounts'].plus.firstname = DATA['holding'].NAME,
+  DATA['accounts'].plus.lastname  = 'LTD',
+  DATA['accounts'].plus.gender    = 'decline to state',
+  DATA['accounts'].plus.birthday  = '13. January'
+```
+* Start Using Bookmarkbar as your companies table of content overview
+  * Example: [**DATA**.bookmarks.STACK/](DATA.md#bookmarks)
+  * TopRight Hamburger Menu Icon -> Bookmarks -> Show Bookmarks Bar
+  * Add `"Google Drive"`, `"Google Plus"` and `"Google Mail"` to your stack
+  * Create Initial Bookmark Structure & Add Bookmarks by
+    * Right clicking the bar to create folders
+    * drag'n'drop address bar URL's icon to the Bookmarkbar
+    * drag'n'drop items already in the bookmarkbar to re-arrange them
+    * rightclick bookmarkbar -> bookmark manager (for more control)
+```js
+DATA['bookmarks']['STACK/'].browser = 'www.google.com/chrome/browser/desktop/'
+DATA['bookmarks']['STACK/'].gmail    = 'mail.google.com'
+DATA['bookmarks']['STACK/'].drive   = 'drive.google.com/drive/my-drive'
+/*
+  // Make a 'STACK/' folder in your bookmark bar and add the following links
+  STACK/
+    http://mail.google.com
+    https://drive.google.com/drive/my-drive
+    https://www.google.com/chrome/browser/desktop/
+*/
+```
 
-### OUTPUT: [`CGMA`][CGMA], [`DB`][DB], [`GMPL`][GMPL], [`GPL`][GPL]
-
+### OUTPUT:
+```js
+DATA['holding'].GMAIL = DATA['accounts'].google.username + '@gmail.com'
+/*
+You have now:
+* a Company Name & Company Logo
+* a first email address for your company
+* a Google Chrome Browser & Profile with a Bookmark Bar to manage your company.
+*/
+```
 
 ---
 
+## `1. Register Domain Provider & Domain`
 
-## 1. Register Domain Provider & Domain
-@TODO: ***maybe use your personal one and LATER register one on the company and transfer the domain***
+### Requirements
+* **Price:** `~10 GBP p/y` *(depending on your domain of choice)*
+* **Time:** `~0.5 hour`
+* **Other Assets:** [**DATA**.personal](DATA.md#personal) `(=Example)`
+  1. Companies first Mail Account (=`DATA['holding'].GMAIL`)
+  2. Bookmark Bar
+  3. Current Address (=`DATA['personal'].europeanResidentialAddress`)
+  4. Bank Account with Credit Card (=`DATA['personal'].bankAccount`)
 
-*COSTS: ~0 to 30 GBP p/y (depending on the domain)*
-*RESPONSE TIME: instant*
-### INPUT: [`DB`][DB], [`CGMA`][CGMA], [`_BAwCC`][_BAwCC], [`_CRA`][_CRA]
-### PROCESS:
-01. Choose Provider, e.g.:
-  * [namecheap](http://namecheap.com)
-  * [inwx](http://inwx.de)
-  * [internet.bs](https://internetbs.net/)
-  * [freenom](http://www.freenom.com/)
-02. Add Provider Link [`CDPL`][CDPL] to [`DB`][DB]
-03. Register Account and remember [`CDPL.u`][CDPL.u] & [`CDPL.p`][CDPL.p]
-  * @TODO ***might require phone number***
-04. Choose Company Domain [`CD`][CD] & Register it, e.g.:
-  * free: `mycompany.tk` (freenom)
-  * paid: `mycompany.io` (other)
-05. @TODO ***change _PROPs, see [03.]***
-  * *[`_BAwCC`][_BAwCC] and [`_CRA`][_CRA] to Company owned ones*
+### Process
+1. Register Account with [`Domain Registrar`](https://internetbs.net/) & Register your `DATA['holding'].DOMAIN`
+  * Example: [**DATA**.registrar](DATA.md#registrar)
+```js
+DATA['accounts'].registrar.URL = 'https://internetbs.net/'
+DATA['accounts'].registrar.LOGIN_URL = 'https://internetbs.net/'
+DATA['accounts'].registrar.password = '*******'
+DATA['accounts'].registrar.firstname = DATA['holding'].NAME
+DATA['accounts'].registrar.lastname = 'LTD'
+DATA['accounts'].registrar.country = 'United Kingdom'
+DATA['accounts'].registrar.language = 'english'
+DATA['accounts'].registrar.phone = DATA['personal'].mobilePhone.number
+DATA['accounts'].registrar.email = DATA['holding'].GMAIL
+DATA['accounts'].registrar.question = '<choose what you like>'
+DATA['accounts'].registrar.answer = '*******'
+DATA['accounts'].registrar.street = (
+  DATA['personal'].europeanResidentialAddress.street
+)
+DATA['accounts'].registrar.postalcode = (
+  DATA['personal'].europeanResidentialAddress.postalcode
+)
+DATA['accounts'].registrar.city = (
+  DATA['personal'].europeanResidentialAddress.city
+)
+DATA['accounts'].registrar.country = (
+  DATA['personal'].europeanResidentialAddress.country
+)
+```
+* Add Provider Link to Bookmarkbar
+  * Example: [**DATA**.bookmarks.STACK/.registrar](DATA.md#bookmarks)
+```js
+DATA['bookmarks']['STACK/'].registrar = DATA['accounts'].registrar.URL
+```
 
-### OUTPUT: [`CD`][CD], [`CDPL`][CDPL]
-
+### OUTPUT:
+```js
+/*
+You have now:
+* a Domain Registrar User Account
+* a registered Company Domain
+*/
+```
 
 ---
 
+## `2. Register Zoho Vault & Zoho Domain Mail Account & Make it work from GMAIL`
 
-## 2. Register Zoho Domain Mail Account & Make it work from GMAIL
-*COSTS: 0 GBP p/y*
-*RESPONSE TIME: instant*
-### INPUT: [`DB`][DB], [`CGMA`][CGMA], [`CD`][CD], [`CDPL`][CDPL], [`GMPL`][GMPL]
-### PROCESS:
-01. Signup for Zoho Mail with [`CGMA`][CGMA]
-02. Create [`CMA`][CMA]: *companyname@companyname.de*
-03. Add Zoho Mail Link [`MPL`][MPL] to [`DB`][DB]
-04. Configure Domain DNS at [`CDPL`][CDPL] to verify you own [`CD`][CD]
+### Requirements
+* **Price:** `0 GBP p/y`
+* **Time:** `~0.5 hour`
+* **Other Assets:** [**DATA**.personal](DATA.md#personal) `(=Example)`
+  1. Companies first Mail Account (=`DATA['holding'].GMAIL`)
+  2. Company Domain Name
+  3. Domain Registrar
+  4. Google Mail
+
+### Process:
+1. Signup for [Zoho Vault Password Manager](https://www.zoho.com/vault/)
+```js
+DATA['bookmarks']['STACK/'].passwordVault = 'https://www.zoho.com/vault/'
+// and
+DATA['accounts'].zoho.URL = 'https://mail.zoho.com/'
+DATA['accounts'].zoho.MAIL_SETUP = 'https://mail.zoho.com/biz/index.do'
+DATA['accounts'].zoho.LOGIN_URL = 'https://www.zoho.com/login.html'
+DATA['accounts'].zoho.vault.URL = 'https://www.zoho.com/vault/'
+DATA['accounts'].zoho.vault.URL = 'https://www.zoho.com/vault/'
+DATA['accounts'].zoho.vault.URL = 'https://www.zoho.com/vault/'
+DATA['accounts'].zoho.vault.email = DATA['holding'].GMAIL
+DATA['accounts'].zoho.vault.password = '********' // set a password
+DATA['accounts'].zoho.vault.organizationName = DATA['holding'].FIRM
+DATA['accounts'].zoho.vault.passphrase = '********' // set a passphrase
+DATA['accounts'].zoho.vault.chromeExtension = 'https://chrome.google.com/webstore/detail/zoho-vault/igkpcodhieompeloncfnbekccinhapdb'
+```
+  * Example: [**DATA**.accounts.zoho.vault](DATA.md#zoho)
+* Install Zoho Vault Chrome Extension
+```js
+https://chrome.google.com/webstore/detail/zoho-vault/igkpcodhieompeloncfnbekccinhapdb
+// and add all your companies credentials to it, e.g.
+// => MAKE SURE to use the LOGIN URL instead of the regular URL
+DATA['accounts'].google.LOGIN_URL
+DATA['accounts'].google.password
+DATA['accounts'].registrar.LOGIN_URL
+DATA['accounts'].registrar.password
+DATA['accounts'].zoho.vault.LOGIN_URL
+DATA['accounts'].zoho.vault.password
+```
+* Create Companies Domain Email Address
+  * Goto:
+```js
+DATA['accounts'].zoho.MAIL_SETUP = 'https://mail.zoho.com/biz/index.do'
+```
+  * Choose: `Add your existing domain for Email Hosting with Zoho and create domain-based address.`
+```js
+// Use
+DATA['holding'].DOMAIN
+// and set `companyname@companyname.de`
+DATA['holding'].EMAIL = DATA['holding'].NAME + '@' + DATA['holding'].DOMAIN
+// ...
+```
+* Add to bookmarks
+```js
+DATA['bookmarks']['STACK/'].mail = DATA['accounts'].zoho.URL
+```
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+* Configure Domain DNS at [`CDPL`][CDPL] to verify you own [`CD`][CD]
   * Verify Ownership
     * Name / Host / Alias / CNAME: "zb14332705"
     * Value / Points To / Destination: "zmverify.zoho.com"
   * Configure MX Records
     * "@	mx.zoho.com	10"
     * "@	mx2.zoho.com	20"
-05. Add [`CMA`][CMA] as "Send as" under Settings/Accounts&Import in [`GMPL`][GMPL] and make it the "default address"
+* Add [`CMA`][CMA] as "Send as" under Settings/Accounts&Import in [`GMPL`][GMPL] and make it the "default address"
   * user [`CMA`][CMA]
   * pass [`GMPL.pw`]
   * smtp.zoho.com
   * Port: 465 (SSL)
-06. Go to Zoho Inbox and confirm
-07. In ZOHO go to "Settings/EmailForwarding" and put the [`CGMA`][CGMA] there + go to [`GMPL`][GMPL] to confirm.
-08. @TODO ***add IMPRESSUM***
-09. @TODO ***Add IMPRESSUM to "Email Signature"***
+* Go to Zoho Inbox and confirm
+* In ZOHO go to "Settings/EmailForwarding" and put the [`CGMA`][CGMA] there + go to [`GMPL`][GMPL] to confirm.
+* @TODO ***add IMPRESSUM***
+* @TODO ***Add IMPRESSUM to "Email Signature"***
 
-### OUTPUT: `CMA`, `MPL`
-
-
----
-
-
-## 3. Register mitro and install plugin
-*COSTS: 0 GBP p/y*
-*RESPONSE TIME: instant*
-### INPUT: [`CMA`][CMA], [`DB`][DB], [`MPL`][MPL], [`GMPL`][GMPL], [`CDPL`][CDPL]
-### PROCESS:
-01. Download and Install mitro plugin
-02. Add Mitro Link https://www.mitro.co/ [`ML`][ML] to [`DB`][DB]
-03. Register with Username [`ML.u`] and Password [`ML.p`]
-04. Add credentials for Zoho [`MPL`][MPL], GMail [`GMPL`][GMPL] and Domain Registrar [`CDPL`][CDPL] to mitro [`ML`][ML]
-
-### OUTPUT: [`ML`][ML]
-
+### OUTPUT:
+```js
+/*
+You have now:
+* a Company Email Address with your Domain Name
+* a Password Manager to manage all your companies credentials
+*/
+```
 
 ---
-
 
 ## 4. Create Github Account + Organization and Github Page + Gitter + Waffle
 *COSTS: 0 GBP p/y*
@@ -435,12 +521,16 @@ Choose [**DATA**]:
   ```
 
 ### OUTPUT: [`DCoI`][DCoI]
+#### `2015-6-25`
 // WAIT for:
 > You’ll first need your company’s 10-digit Unique Taxpayer Reference (UTR). This is posted to your company address by HM Revenue and Customs (HMRC), usually within a few days of the company being registered with Companies House (incorporated).
 > If you don't receive it, call the help Line
  https://www.gov.uk/government/organisations/hm-revenue-customs/contact/corporation-tax-enquiries
 
  ---
+
+#### `2015-08-14`
+* **!!! That's 40 days later !!!**
 
 https://www.gov.uk/limited-company-formation/set-up-your-company-for-corporation-tax
 
