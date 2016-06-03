@@ -1,6 +1,6 @@
 {
   "name": "company",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "setup and run your own company",
   "keywords": [
     "company",
@@ -9,8 +9,7 @@
     "ltd",
     "enterprise",
     "contract",
-    "business",
-    "revolution"
+    "business"
   ],
   "author": "serapath <dev@serapath.de> (http://www.github.com/serapath)",
   "repository": {
@@ -24,6 +23,7 @@
     "email": "dev@serapath.de"
   },
   "dependencies": {
+    "npmgenerate-cjs": "0.2.1"
   },
   "devDependencies": {
     "tape": "^2.12.3",
@@ -49,7 +49,5 @@
   "pre-commit": [
     "jshint-pre-commit",
     "unit-test"
-  ],
-  "private": true,
-  "npmgenerate-cjs": "0.2.1"
+  ]
 }
