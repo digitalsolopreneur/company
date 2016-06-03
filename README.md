@@ -14,7 +14,9 @@ company
 setup and run your own company
 For more details see [FAQ](./FAQ.md)
 
-## Example
+## Usage
+
+Install with `npm install company`, then use it like:
 
 ```js
 var company = require("company");
@@ -36,9 +38,16 @@ company := (arg: Any) => void
 
 // TODO. State what the module does.
 
-## Installation
 
-`npm install -g company`
+## Related Projects
+* [`company`](https://github.com/digitalsolopreneur/company) (a library that lets you create a company programatically)
+* [`company-cli`](https://github.com/digitalsolopreneur/company-cli)(use "company" from the command line)
+* [`abstract-company`](https://github.com/digitalsolopreneur/abstract-company)(specifies a standard interface to implement opening and running a company)
+* [`company-uk-ltd`](https://github.com/digitalsolopreneur/company-uk-ltd)(as a first example implementation that fullfillfs "abstract-company")
+
+Please check the roadmap too :-)
+https://github.com/digitalsolopreneur/roadmap/issues
+
 
 ## Contributors
 
